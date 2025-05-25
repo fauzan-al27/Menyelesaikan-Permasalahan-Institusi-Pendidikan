@@ -7,7 +7,8 @@ Jaya Jaya Institut menghadapi permasalahan tingginya angka **dropout siswa** yan
 ## 2. Data Understanding
 
 Data yang digunakan merupakan data internal dari Jaya Jaya Institut yang berisi informasi siswa
-Link: https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/main/students_performance/data.csv
+
+Link CSV: https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/main/students_performance/data.csv
 
 ## 3. Data Preparation
 
