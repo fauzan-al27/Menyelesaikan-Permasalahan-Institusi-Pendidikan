@@ -31,3 +31,14 @@ Dashboard dibuat menggunakan **Tableau Public** untuk menampilkan data statistik
 
 📊 **Link dashboard Tableau**:
 👉 [Dashboard Tableau - Monitoring Siswa](https://public.tableau.com/app/profile/muhammad.fauzan.alkhairi/viz/Dashboard_17478160134210/Dashboard1)
+
+## 6. Rekomendasi Tindak Lanjut
+
+### Rekomendasi Tindak Lanjut:
+a. Analisis lebih lanjut pada siswa “Enrolled”:
+- Pertimbangkan teknik resampling seperti SMOTE atau undersampling.
+- Tinjau kemungkinan adanya label ambiguity pada siswa yang masih aktif (belum dropout/lulus).
+
+b. Penguatan intervensi pada siswa berisiko tinggi:
+- Siswa yang berusia lebih tua dan memiliki utang berpotensi tinggi mengalami dropout.
+- Intervensi finansial dan dukungan akademik bisa difokuskan pada kelompok ini.
