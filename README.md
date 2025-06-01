@@ -43,6 +43,9 @@ Model yang digunakan adalah Random Forest Classifier, karena:
 - Performa berdasarkan precision, recall, dan F1-score untuk tiap kelas (Dropout, Enrolled, Graduate).
 - Confusion Matrix menunjukkan distribusi prediksi dan kesalahan.
 
+### Model Deployment
+https://menyelesaikan-permasalahan-institusi-pendidikan-qesnurj28m8d7u.streamlit.app/
+
 ## 6. Dashboard
 
 Dashboard dibuat menggunakan **Tableau Public** untuk menampilkan data statistik dan performa siswa secara visual.
