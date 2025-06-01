@@ -17,13 +17,10 @@ Permasalahan utama yang dihadapi institusi adalah:
 - Membuat dashboard interaktif yang dapat digunakan manajemen untuk memantau performa siswa secara visual dan informatif.
 
 ## 4. Persiapan
-Data yang digunakan merupakan data internal dari Jaya Jaya Institut yang berisi informasi siswa
-Link CSV: https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/main/students_performance/data.csv
 
-## 4. Data Understanding
+### Sumber Data:
 
 Data yang digunakan merupakan data internal dari Jaya Jaya Institut yang berisi informasi siswa
-
 Link CSV: https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/main/students_performance/data.csv
 
 ### Langkah Persiapan Data:
