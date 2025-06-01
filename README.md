@@ -48,7 +48,7 @@ https://menyelesaikan-permasalahan-institusi-pendidikan-qesnurj28m8d7u.streamlit
 Dashboard dibuat menggunakan **Tableau Public** untuk menampilkan data statistik dan performa siswa secara visual.
 
 📊 **Link dashboard Tableau**:
-👉 [Dashboard Tableau - Monitoring Siswa](https://public.tableau.com/app/profile/muhammad.fauzan.alkhairi/viz/Dashboard_17478160134210/Dashboard1)
+👉 [Dashboard Tableau - Monitoring Siswa]((https://public.tableau.com/app/profile/muhammad.fauzan.alkhairi/viz/Menyelesaikan-Permasalahan-Institusi-Pendidikan/Dashboard1))
 
 ## 8. Conclusion
 Model machine learning berhasil dibangun dengan akurasi yang cukup baik untuk memprediksi status mahasiswa. Sistem ini dapat menjadi alat bantu dalam proses pengambilan keputusan manajerial, terutama dalam mencegah siswa yang berpotensi dropout.
