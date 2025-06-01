@@ -2,43 +2,62 @@
 
 ## 1. Business Understanding
 
-Jaya Jaya Institut menghadapi permasalahan tingginya angka **dropout siswa** yang berpengaruh pada reputasi dan kinerja institusi. Tujuan dari proyek ini adalah untuk mengidentifikasi faktor-faktor yang berkontribusi terhadap kemungkinan dropout dan membangun sistem prediksi serta dashboard monitoring performa siswa secara berkala.
+Jaya Jaya Institut merupakan institusi pendidikan tinggi yang tengah menghadapi tantangan serius terkait tingginya tingkat dropout (putus studi) mahasiswa. Hal ini berdampak langsung pada reputasi, kinerja institusi, dan kepercayaan masyarakat terhadap kualitas akademik yang ditawarkan. Oleh karena itu, diperlukan sebuah sistem yang mampu memprediksi potensi dropout sejak dini dan memberikan dasar bagi pengambilan keputusan yang lebih tepat sasaran.
 
-## 2. Data Understanding
+## 2. Permasalahan Bisnis
+Permasalahan utama yang dihadapi institusi adalah:
+
+- Tingginya tingkat mahasiswa yang keluar (dropout).
+- Kurangnya sistem monitoring performa siswa yang dapat memberikan peringatan dini.
+- Sulitnya mengidentifikasi siswa yang berisiko tinggi untuk diberi intervensi lebih awal.
+
+## 3. Cakupan Proyek
+- Menganalisis data siswa untuk memahami faktor-faktor yang memengaruhi status dropout.
+- Mengembangkan model machine learning untuk memprediksi status siswa (Dropout, Enrolled, atau Graduate).
+- Membuat dashboard interaktif yang dapat digunakan manajemen untuk memantau performa siswa secara visual dan informatif.
+
+## 4. Persiapan
+Data yang digunakan merupakan data internal dari Jaya Jaya Institut yang berisi informasi siswa
+Link CSV: https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/main/students_performance/data.csv
+
+## 4. Data Understanding
 
 Data yang digunakan merupakan data internal dari Jaya Jaya Institut yang berisi informasi siswa
 
 Link CSV: https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/main/students_performance/data.csv
 
-## 3. Data Preparation
+### Langkah Persiapan Data:
 
-- Encoding kategori ke numerik
-- Normalisasi fitur numerik
-- Membagi data menjadi fitur dan label
+- Label Encoding untuk kolom target Status.
+- One-hot encoding untuk variabel kategorikal lainnya.
+- Normalisasi fitur numerik menggunakan MinMaxScaler.
+- Split data menjadi training dan testing set dengan proporsi 80:20.
 
-## 4. Modeling
+## 5. Modeling
+Model yang digunakan adalah Random Forest Classifier, karena:
+- Mampu menangani fitur kategorikal dan numerik secara bersamaan.
+- Robust terhadap overfitting dan memberikan feature importance.
 
-Model machine learning yang digunakan adalah **Random Forest Classifier** yang dipilih karena kemampuannya menangani data tabular dengan baik. Model dilatih untuk memprediksi apakah seorang siswa akan Dropout, Enrolled, atau Graduate.
-
-### Hasil Evaluasi Model:
+### Hasil Evaluasi:
 - Akurasi: 76.61%
-- Precision / Recall / F1-score untuk tiap kelas
-- Confusion Matrix
+- Performa berdasarkan precision, recall, dan F1-score untuk tiap kelas (Dropout, Enrolled, Graduate).
+- Confusion Matrix menunjukkan distribusi prediksi dan kesalahan.
 
-## 5. Dashboard
+## 6. Dashboard
 
 Dashboard dibuat menggunakan **Tableau Public** untuk menampilkan data statistik dan performa siswa secara visual.
 
 📊 **Link dashboard Tableau**:
 👉 [Dashboard Tableau - Monitoring Siswa](https://public.tableau.com/app/profile/muhammad.fauzan.alkhairi/viz/Dashboard_17478160134210/Dashboard1)
 
-## 6. Rekomendasi Tindak Lanjut
+## 8. Conclusion
+Model machine learning berhasil dibangun dengan akurasi yang cukup baik untuk memprediksi status mahasiswa. Sistem ini dapat menjadi alat bantu dalam proses pengambilan keputusan manajerial, terutama dalam mencegah siswa yang berpotensi dropout.
 
 ### Rekomendasi Tindak Lanjut:
-a. Analisis lebih lanjut pada siswa “Enrolled”:
-- Pertimbangkan teknik resampling seperti SMOTE atau undersampling.
-- Tinjau kemungkinan adanya label ambiguity pada siswa yang masih aktif (belum dropout/lulus).
+a. Tindak lanjut terhadap siswa "Enrolled":
+- Lakukan analisis lebih lanjut untuk mengklasifikasikan apakah mereka berisiko dropout atau tidak.
+- Pertimbangkan teknik balancing dataset seperti SMOTE untuk memperbaiki distribusi kelas.
 
-b. Penguatan intervensi pada siswa berisiko tinggi:
-- Siswa yang berusia lebih tua dan memiliki utang berpotensi tinggi mengalami dropout.
-- Intervensi finansial dan dukungan akademik bisa difokuskan pada kelompok ini.
+b. Intervensi Dini untuk Siswa Berisiko Tinggi:
+- Fokus pada siswa yang berusia lebih tua dan memiliki beban finansial tinggi.
+- Sediakan program dukungan finansial dan mentoring akademik untuk mengurangi risiko dropout.
