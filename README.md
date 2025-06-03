@@ -47,6 +47,9 @@ Model yang digunakan adalah Random Forest Classifier, karena:
 - Performa berdasarkan precision, recall, dan F1-score untuk tiap kelas (Dropout, Enrolled, Graduate).
 - Confusion Matrix menunjukkan distribusi prediksi dan kesalahan.
 
+### Menjalankan Sistem Machine Learning
+streamlit run app.py
+
 ### Model Deployment
 https://menyelesaikan-permasalahan-institusi-pendidikan-qesnurj28m8d7u.streamlit.app/
 
