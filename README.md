@@ -30,6 +30,13 @@ Link CSV: https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/mai
 - Normalisasi fitur numerik menggunakan MinMaxScaler.
 - Split data menjadi training dan testing set dengan proporsi 80:20.
 
+### Setup Environment Menggunakan pip dan pipenv
+
+- pip install pipenv
+- pipenv install
+- pipenv shell
+- pip install -r requirements.txt
+
 ## 5. Modeling
 Model yang digunakan adalah Random Forest Classifier, karena:
 - Mampu menangani fitur kategorikal dan numerik secara bersamaan.
