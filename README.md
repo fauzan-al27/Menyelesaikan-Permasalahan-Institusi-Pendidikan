@@ -50,10 +50,11 @@ Model yang digunakan adalah Random Forest Classifier, karena:
 ### Menjalankan Sistem Machine Learning
 streamlit run app.py
 
-### Model Deployment
+## 6. Model Deployment
+Link ke aplikasi Streamlit:
 https://menyelesaikan-permasalahan-institusi-pendidikan-qesnurj28m8d7u.streamlit.app/
 
-## 6. Dashboard
+## 7. Dashboard
 
 Dashboard dibuat menggunakan **Tableau Public** untuk menampilkan data statistik dan performa siswa secara visual.
 
